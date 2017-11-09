@@ -5,23 +5,64 @@
 <head>
     <title>Aviation Academy</title>
     <link rel="stylesheet" href="main.css">
+    <style>
+        #head1 {
+            display: inline-block;
+            margin-left: 400px;
 
+        }
+        #list1{
+            border-style: solid;
+            display: inline-block;
+            padding: 5px;
+            margin: 20px;
+        }
+        #header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.contact {
+    float: left;
+}
+
+.contact a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+    </style>
 </head>
 
 <body>
 
-    <a class="main_nav" href="about.html">About</a>
-    <a class="main_nav" href="contact.html">Contact</a>
-    <h1>Wecome To The Aviation Academy!</h1>
+    <ul id="header">
+  <li class="contact"><a href="contact.html">Contact</a></li>
+  <li class="contact"><a href="About.html">About</a></li>
+</ul>
+
+
+    <div>
+        <h1 id="head1">Welcome To The Aviation Academy!</h1>
+    </div>
+    <br>
     <h2>Here at the Aviation academy, we take the time to teach you everything you need to know to achieve all of your dreams</h2>
-    <img src="untitledfolder/airplane%20copy.jpg" alt="loveplanes">
+
     <h3> We have different licenses for people who just want to fly for fun, or for those who want to make a full-time career out of it!</h3>
-    <ul>
+    <ul id="list1">
         <li>Private Pilot</li>
         <li>Commercial Rating</li>
         <li>Flight Instructor</li>
     </ul>
-    <img src="untitledfolder/images.jpeg" alt="pretty cool pic">
+    <br>
+    <img src="untitledfolder/images.jpeg" alt="pretty cool pic" class="center" ;>
 
 
 
